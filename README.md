@@ -12,6 +12,7 @@ Create a Terraform directory locally or clone the public GitHub Repo
 ## Step 2
 Update the provider.tf and replace `PROJECT_ID` with your project
 
+
 ## Step 3 to be followed
 ###############################
 terraform init to get the plugins.
@@ -22,7 +23,8 @@ terraform apply to apply the infrastructure build.
 ## Step 4 
 Post sucessfull execution of the terraform apply / pipeline the output will display the service URL for the Hello Wold Application
 
-service_url = "https://app-v2jtqt4naq-uc.a.run.app"
+cloud_run_url = "https://helloworld-v2jtqt4naq-uc.a.run.app"
+load_balancer_ip = "34.128.143.5
 
 ## Task 2 == Steps Below
 
