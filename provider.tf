@@ -1,4 +1,3 @@
 provider "google" {
-  # Replace `PROJECT_ID` with your project
-  project = "integral-genius-266314"
+  project = var.project_id
 }
